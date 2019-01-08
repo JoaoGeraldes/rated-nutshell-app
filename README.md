@@ -1,3 +1,16 @@
+The FIREBASE file named fire.js should be configured to your own Firebase API values to get the app working.
+
+// config constant is holding all data you need to establish connection to firebase
+const config = {
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: ""
+};
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
