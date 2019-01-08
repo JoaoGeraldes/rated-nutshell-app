@@ -1,12 +1,12 @@
 import firebase from 'firebase';
 
 const config = {
-    apiKey: "AIzaSyBmxHvDAiVPDMIqyn527cU1mKqVNGZAcuY",
-    authDomain: "nutshell-c3c29.firebaseapp.com",
-    databaseURL: "https://nutshell-c3c29.firebaseio.com",
-    projectId: "nutshell-c3c29",
-    storageBucket: "nutshell-c3c29.appspot.com",
-    messagingSenderId: "387038001834"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: ""
 };
 
 const fire = firebase.initializeApp(config);
