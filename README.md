@@ -4,7 +4,7 @@
 - Criar um **novo projeto na firebase** e posteriormente uma **Realtime Database**. 
 - Último passo, adicionar a constante **config** com os dados da firebase criada no passo anterior, no ficheiro **fire.js** do diretório **/components/firebase**
 
-**const config = {
+**const config = {\
     apiKey: "",\
     authDomain: "",\
     databaseURL: "",\
