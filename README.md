@@ -1,8 +1,8 @@
-- Instalar o node.js em https://nodejs.org para podermos usar o node package manager (npm).
+- **Instalar o node.js** em https://nodejs.org para podermos usar o node package manager (npm).
 - Fazer o clone ou download do projeto no GitHub https://github.com/JoaoGeraldes/rated-nutshell-app
-- Abrir o IDE favorito, e na consola executar o comando npm install. Em alternativa, o mesmo procedimento poderá ser realizado através da linha de comandos do windows, contudo, deve-se direcionar para o diretório root do projeto. Neste passo, todas as dependências serão instaladas.
-- Criar um novo projeto na firebase e posteriormente uma Realtime Database. 
-- Último passo, adicionar a constante config com os dados da firebase criada no passo anterior, no ficheiro fire.js do diretório /components/firebase
+- Abrir o IDE favorito, e na consola executar o comando **npm install**. Em alternativa, o mesmo procedimento poderá ser realizado através da linha de comandos do windows, contudo, deve-se direcionar para o diretório root do projeto. Neste passo, todas as dependências serão instaladas.
+- Criar um **novo projeto na firebase** e posteriormente uma **Realtime Database**. 
+- Último passo, adicionar a constante **config** com os dados da firebase criada no passo anterior, no ficheiro **fire.js** do diretório **/components/firebase**
 
 **const config = {
     apiKey: "",\
@@ -13,7 +13,7 @@
     messagingSenderId: ""\
 };**
 
-Na página do firebase > Autenticação > Método de login  - Ativar o provedor Facebook e Google -> Salvar.
+Na página do **firebase > Autenticação > Método de login  - Ativar** o provedor Facebook e Google -> Salvar.
 Estando estes passos realizados, executa-se o comando npm start e aplicação abrirá no localhost com o browser pré-definido.
 Depois destas configurações, a aplicação está pronta a ser usada, escrever e ler dados na Realtime Database e autenticar através do Google. Para usar o facebook é preciso configurar na própria aplicação do facebook o OAUTH URI.
 
