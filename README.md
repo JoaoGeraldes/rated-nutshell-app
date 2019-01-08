@@ -4,14 +4,14 @@
 - Criar um novo projeto na firebase e posteriormente uma Realtime Database. 
 - Último passo, adicionar a constante config com os dados da firebase criada no passo anterior, no ficheiro fire.js do diretório /components/firebase
 
-const config = {
+**const config = {
     apiKey: "",\
     authDomain: "",\
     databaseURL: "",\
     projectId: "",\
     storageBucket: "",\
     messagingSenderId: ""\
-};
+};**
 
 Na página do firebase > Autenticação > Método de login  - Ativar o provedor Facebook e Google -> Salvar.
 Estando estes passos realizados, executa-se o comando npm start e aplicação abrirá no localhost com o browser pré-definido.
