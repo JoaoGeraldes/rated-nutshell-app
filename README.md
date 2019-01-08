@@ -1,6 +1,6 @@
-The FIREBASE file named fire.js should be configured to your own Firebase API values to get the app working.
+The FIREBASE file named fire.js on components/firebase/ directory should be configured to your own Firebase Realtime Database values to get the app working.
 
-// config constant is holding all data you need to establish connection to firebase
+// config constant is holding all the data you need to establish connection to firebase
 const config = {
     apiKey: "",
     authDomain: "",
