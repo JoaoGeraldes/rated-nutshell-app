@@ -1,8 +1,8 @@
-1- Instalar o node.js em https://nodejs.org para podermos usar o node package manager (npm).
-2- Fazer o clone ou download do projeto no GitHub https://github.com/JoaoGeraldes/rated-nutshell-app
-3- Abrir o IDE favorito, e na consola executar o comando npm install. Em alternativa, o mesmo procedimento poderá ser realizado através da linha de comandos do windows, contudo, deve-se direcionar para o diretório root do projeto. Neste passo, todas as dependências serão instaladas.
-4- Criar um novo projeto na firebase e posteriormente uma Realtime Database. 
-5- Último passo, adicionar a constante config com os dados da firebase criada no passo anterior, no ficheiro fire.js do diretório /components/firebase
+- Instalar o node.js em https://nodejs.org para podermos usar o node package manager (npm).
+- Fazer o clone ou download do projeto no GitHub https://github.com/JoaoGeraldes/rated-nutshell-app
+- Abrir o IDE favorito, e na consola executar o comando npm install. Em alternativa, o mesmo procedimento poderá ser realizado através da linha de comandos do windows, contudo, deve-se direcionar para o diretório root do projeto. Neste passo, todas as dependências serão instaladas.
+- Criar um novo projeto na firebase e posteriormente uma Realtime Database. 
+- Último passo, adicionar a constante config com os dados da firebase criada no passo anterior, no ficheiro fire.js do diretório /components/firebase
 const config = {
     apiKey: "",
     authDomain: "",
