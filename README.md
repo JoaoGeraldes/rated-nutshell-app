@@ -14,7 +14,7 @@
 };**
 
 Na página do **firebase > Autenticação > Método de login  - Ativar** o provedor Facebook e Google -> Salvar.
-Estando estes passos realizados, executa-se o comando npm start e aplicação abrirá no localhost com o browser pré-definido.
+Estando estes passos realizados, executa-se o comando **npm start** e aplicação abrirá no localhost com o browser pré-definido.
 Depois destas configurações, a aplicação está pronta a ser usada, escrever e ler dados na Realtime Database e autenticar através do Google. Para usar o facebook é preciso configurar na própria aplicação do facebook o OAUTH URI.
 
 ------------------------
